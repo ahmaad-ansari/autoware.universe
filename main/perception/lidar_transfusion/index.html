@@ -13292,6 +13292,13 @@
 <td>N/A</td>
 </tr>
 <tr>
+<td>num_proposals</td>
+<td>integer</td>
+<td>Number of proposals at TransHead.</td>
+<td>500</td>
+<td>≥1</td>
+</tr>
+<tr>
 <td>down_sample_factor</td>
 <td>integer</td>
 <td>A scale factor of downsampling points</td>
@@ -13416,9 +13423,9 @@ For debug purposes, you can validate your pointcloud topic using simple command:
 <h2 id="trained-models">Trained Models<a class="headerlink" href="#trained-models" title="Permanent link">#</a></h2>
 <p>You can download the onnx format of trained models by clicking on the links below.</p>
 <ul>
-<li>TransFusion: <a href="https://awf.ml.dev.web.auto/perception/models/transfusion/v1/transfusion.onnx">transfusion.onnx</a></li>
+<li>TransFusion: <a href="https://awf.ml.dev.web.auto/perception/models/transfusion/t4xx1_90m/v2/transfusion.onnx">transfusion.onnx</a></li>
 </ul>
-<p>The model was trained in TIER IV's internal database (~11k lidar frames) for 20 epochs.</p>
+<p>The model was trained in TIER IV's internal database (~11k lidar frames) for 50 epochs.</p>
 <h3 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">#</a></h3>
 <h2 id="optional-error-detection-and-handling">(Optional) Error detection and handling<a class="headerlink" href="#optional-error-detection-and-handling" title="Permanent link">#</a></h2>
 <!-- Write how to detect errors and how to recover from them.
